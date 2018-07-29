@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385FEB4521037A1400202A7F /* Sleet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4421037A1400202A7F /* Sleet.mp4 */; };
+		385FEB4921037A2A00202A7F /* Thunder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4821037A2900202A7F /* Thunder.mp4 */; };
+		385FEB4B210386D100202A7F /* Default.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4A210386D100202A7F /* Default.mp4 */; };
+		385FEB4D210386DC00202A7F /* Hail_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4C210386DB00202A7F /* Hail_New.mp4 */; };
+		385FEB4F21038B1400202A7F /* Tornado_New_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */; };
+		385FEB5121038D7200202A7F /* Rain_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB5021038D7200202A7F /* Rain_New.mp4 */; };
+		385FEB532103FA1800202A7F /* Snow_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB522103FA1800202A7F /* Snow_New.mp4 */; };
+		385FEB552104A32400202A7F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FEB542104A32400202A7F /* Reachability.swift */; };
+		387CB0F420FA4657000E4D01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 387CB0F320FA4656000E4D01 /* GoogleService-Info.plist */; };
+		387CB0F620FA5001000E4D01 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CB0F520FA5001000E4D01 /* HomeController.swift */; };
+		38E745F7210D7BE5003DCC1E /* Cloudy_Night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */; };
 		38ECCD6720FA2C2E0098A036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */; };
-		38ECCD6920FA2C2E0098A036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECCD6820FA2C2E0098A036 /* ViewController.swift */; };
 		38ECCD6C20FA2C2E0098A036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD6A20FA2C2E0098A036 /* Main.storyboard */; };
 		38ECCD6E20FA2C400098A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD6D20FA2C400098A036 /* Assets.xcassets */; };
 		38ECCD7120FA2C400098A036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD6F20FA2C400098A036 /* LaunchScreen.storyboard */; };
+		38ECCD7E20FA315C0098A036 /* Clear_Day.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD7D20FA315C0098A036 /* Clear_Day.mp4 */; };
+		38ECCD8020FA31690098A036 /* Clear_Night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD7F20FA31690098A036 /* Clear_Night.mp4 */; };
+		38ECCD8220FA31930098A036 /* Cloudy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD8120FA31930098A036 /* Cloudy.mp4 */; };
+		38ECCD8620FA31AD0098A036 /* Fog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD8520FA31AD0098A036 /* Fog.mp4 */; };
+		38ECCD8A20FA31D70098A036 /* Windy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD8920FA31D60098A036 /* Windy.mp4 */; };
+		8053EA782108E8F500B8A270 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053EA772108E8F500B8A270 /* Spinner.swift */; };
+		AA3F717B01921FBD01FF4D9D /* Pods_SkyLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95603C33167833EF79723C66 /* Pods_SkyLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125FE96683734EB6E65D736E /* Pods-SkyLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLive/Pods-SkyLive.release.xcconfig"; sourceTree = "<group>"; };
+		385FEB4421037A1400202A7F /* Sleet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sleet.mp4; sourceTree = "<group>"; };
+		385FEB4821037A2900202A7F /* Thunder.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thunder.mp4; sourceTree = "<group>"; };
+		385FEB4A210386D100202A7F /* Default.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Default.mp4; sourceTree = "<group>"; };
+		385FEB4C210386DB00202A7F /* Hail_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hail_New.mp4; sourceTree = "<group>"; };
+		385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tornado_New_2.mp4; sourceTree = "<group>"; };
+		385FEB5021038D7200202A7F /* Rain_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rain_New.mp4; sourceTree = "<group>"; };
+		385FEB522103FA1800202A7F /* Snow_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snow_New.mp4; sourceTree = "<group>"; };
+		385FEB542104A32400202A7F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		387CB0F320FA4656000E4D01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		387CB0F520FA5001000E4D01 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloudy_Night.mp4; sourceTree = "<group>"; };
 		38ECCD6320FA2C2E0098A036 /* SkyLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38ECCD6820FA2C2E0098A036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38ECCD6B20FA2C2E0098A036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38ECCD6D20FA2C400098A036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38ECCD7020FA2C400098A036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38ECCD7220FA2C400098A036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38ECCD7D20FA315C0098A036 /* Clear_Day.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clear_Day.mp4; sourceTree = "<group>"; };
+		38ECCD7F20FA31690098A036 /* Clear_Night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clear_Night.mp4; sourceTree = "<group>"; };
+		38ECCD8120FA31930098A036 /* Cloudy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloudy.mp4; sourceTree = "<group>"; };
+		38ECCD8520FA31AD0098A036 /* Fog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fog.mp4; sourceTree = "<group>"; };
+		38ECCD8920FA31D60098A036 /* Windy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Windy.mp4; sourceTree = "<group>"; };
+		8053EA772108E8F500B8A270 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		95603C33167833EF79723C66 /* Pods_SkyLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7036064257D0C974B15E1BC /* Pods-SkyLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLive/Pods-SkyLive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3F717B01921FBD01FF4D9D /* Pods_SkyLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				38ECCD6520FA2C2E0098A036 /* SkyLive */,
 				38ECCD6420FA2C2E0098A036 /* Products */,
+				C06F0694CA490C680E470153 /* Pods */,
+				C5452DEDF11C2F96E8492957 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,87 @@
 		38ECCD6520FA2C2E0098A036 /* SkyLive */ = {
 			isa = PBXGroup;
 			children = (
-				38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */,
-				38ECCD6820FA2C2E0098A036 /* ViewController.swift */,
-				38ECCD6A20FA2C2E0098A036 /* Main.storyboard */,
+				38ECCD7820FA2CD50098A036 /* Singleton */,
+				38ECCD7B20FA2D510098A036 /* Model */,
+				38ECCD7920FA2D030098A036 /* Controllers */,
+				38ECCD7A20FA2D1E0098A036 /* Views */,
 				38ECCD6D20FA2C400098A036 /* Assets.xcassets */,
+				38ECCD7F20FA31690098A036 /* Clear_Night.mp4 */,
+				38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */,
+				385FEB4A210386D100202A7F /* Default.mp4 */,
+				385FEB4C210386DB00202A7F /* Hail_New.mp4 */,
+				385FEB5021038D7200202A7F /* Rain_New.mp4 */,
+				38ECCD8520FA31AD0098A036 /* Fog.mp4 */,
+				38ECCD8120FA31930098A036 /* Cloudy.mp4 */,
+				385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */,
+				385FEB4821037A2900202A7F /* Thunder.mp4 */,
+				385FEB522103FA1800202A7F /* Snow_New.mp4 */,
+				385FEB4421037A1400202A7F /* Sleet.mp4 */,
+				38ECCD8920FA31D60098A036 /* Windy.mp4 */,
+				38ECCD7D20FA315C0098A036 /* Clear_Day.mp4 */,
+				38ECCD7C20FA30CF0098A036 /* Videos */,
 				38ECCD6F20FA2C400098A036 /* LaunchScreen.storyboard */,
 				38ECCD7220FA2C400098A036 /* Info.plist */,
+				387CB0F320FA4656000E4D01 /* GoogleService-Info.plist */,
 			);
 			path = SkyLive;
+			sourceTree = "<group>";
+		};
+		38ECCD7820FA2CD50098A036 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */,
+				8053EA772108E8F500B8A270 /* Spinner.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		38ECCD7920FA2D030098A036 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				387CB0F520FA5001000E4D01 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38ECCD7A20FA2D1E0098A036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38ECCD6A20FA2C2E0098A036 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38ECCD7B20FA2D510098A036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385FEB542104A32400202A7F /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38ECCD7C20FA30CF0098A036 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		C06F0694CA490C680E470153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7036064257D0C974B15E1BC /* Pods-SkyLive.debug.xcconfig */,
+				125FE96683734EB6E65D736E /* Pods-SkyLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5452DEDF11C2F96E8492957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95603C33167833EF79723C66 /* Pods_SkyLive.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38ECCD7520FA2C400098A036 /* Build configuration list for PBXNativeTarget "SkyLive" */;
 			buildPhases = (
+				1EAEC4896643558BC3CF5DD8 /* [CP] Check Pods Manifest.lock */,
 				38ECCD5F20FA2C2E0098A036 /* Sources */,
 				38ECCD6020FA2C2E0098A036 /* Frameworks */,
 				38ECCD6120FA2C2E0098A036 /* Resources */,
+				08E2D7D4A3C6A98D2DC88F61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +236,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385FEB532103FA1800202A7F /* Snow_New.mp4 in Resources */,
+				38ECCD7E20FA315C0098A036 /* Clear_Day.mp4 in Resources */,
+				385FEB4F21038B1400202A7F /* Tornado_New_2.mp4 in Resources */,
+				385FEB4B210386D100202A7F /* Default.mp4 in Resources */,
+				385FEB5121038D7200202A7F /* Rain_New.mp4 in Resources */,
+				38ECCD8620FA31AD0098A036 /* Fog.mp4 in Resources */,
+				385FEB4921037A2A00202A7F /* Thunder.mp4 in Resources */,
+				38ECCD8220FA31930098A036 /* Cloudy.mp4 in Resources */,
 				38ECCD7120FA2C400098A036 /* LaunchScreen.storyboard in Resources */,
+				38ECCD8A20FA31D70098A036 /* Windy.mp4 in Resources */,
 				38ECCD6E20FA2C400098A036 /* Assets.xcassets in Resources */,
+				387CB0F420FA4657000E4D01 /* GoogleService-Info.plist in Resources */,
+				385FEB4D210386DC00202A7F /* Hail_New.mp4 in Resources */,
+				38E745F7210D7BE5003DCC1E /* Cloudy_Night.mp4 in Resources */,
+				385FEB4521037A1400202A7F /* Sleet.mp4 in Resources */,
+				38ECCD8020FA31690098A036 /* Clear_Night.mp4 in Resources */,
 				38ECCD6C20FA2C2E0098A036 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E2D7D4A3C6A98D2DC88F61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyLive/Pods-SkyLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyLive/Pods-SkyLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EAEC4896643558BC3CF5DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38ECCD5F20FA2C2E0098A036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38ECCD6920FA2C2E0098A036 /* ViewController.swift in Sources */,
+				387CB0F620FA5001000E4D01 /* HomeController.swift in Sources */,
 				38ECCD6720FA2C2E0098A036 /* AppDelegate.swift in Sources */,
+				385FEB552104A32400202A7F /* Reachability.swift in Sources */,
+				8053EA782108E8F500B8A270 /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +449,13 @@
 		};
 		38ECCD7620FA2C400098A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7036064257D0C974B15E1BC /* Pods-SkyLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWAFDZBR56;
 				INFOPLIST_FILE = SkyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +463,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AkashVijay.SkyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		38ECCD7720FA2C400098A036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125FE96683734EB6E65D736E /* Pods-SkyLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWAFDZBR56;
 				INFOPLIST_FILE = SkyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AkashVijay.SkyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
