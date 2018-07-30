@@ -15,7 +15,7 @@ import AVFoundation
 import UserNotifications
 import StoreKit
 
-
+            
 
 class HomeController: UIViewController {
     @IBOutlet var cityNameLabel: UILabel!
@@ -176,7 +176,7 @@ class HomeController: UIViewController {
                         
                         //MARK:- Chance of Rain
                         let chanceOfRain = json["currently"]["precipProbability"].doubleValue
-                        strongSelf.changeOfRain.text = "Chance of Rain is \(chanceOfRain) %"
+                        strongSelf.changeOfRain.text = "Chance of Precipitation: \(chanceOfRain) %"
                         
                         
                         // MARK:- TimeZone
@@ -207,7 +207,7 @@ class HomeController: UIViewController {
                                 dayTimePeriodFormatter.dateFormat = " hh:mm a "
                                 dayTimePeriodFormatter.timeZone = TimeZone(identifier: timeZone)
                                 let sunriseTimeString = dayTimePeriodFormatter.string(from: rootDate)
-                                strongSelf.sunRiseLbl.text = "SunRise : \(sunriseTimeString) "
+                                strongSelf.sunRiseLbl.text = "Sunrise : \(sunriseTimeString) "
                                 
                                 // convert double to string of Date - (SunSet)
                                 let rootDate2 = Date(timeIntervalSince1970: sunSet)
@@ -229,19 +229,19 @@ class HomeController: UIViewController {
                         
                         let visibility = json["currently"]["visibility"].doubleValue
                         if strongSelf.currentUnits == "˚F" {
-                            strongSelf.visibilityLbl.text = "Visibility : \(visibility) miles/hr"
+                            strongSelf.visibilityLbl.text = "Visibility : \(visibility) miles"
                         } else {
-                            strongSelf.visibilityLbl.text = "Visibility : \(visibility) Km/hr"
+                            strongSelf.visibilityLbl.text = "Visibility : \(visibility) Km"
                         }
                         
                         let uvIndex = json["currently"]["uvIndex"].intValue
-                        strongSelf.uvIndexLbl.text = "UVIndex : \(uvIndex)"
+                        strongSelf.uvIndexLbl.text = "UV Index : \(uvIndex)"
                         
                         let windSpeed = json["currently"]["windSpeed"].intValue
                         if strongSelf.currentUnits == "˚F" {
-                            strongSelf.windSpeedLbl.text = "WindSpeed: \(windSpeed) miles/hr"
+                            strongSelf.windSpeedLbl.text = "Wind Speed: \(windSpeed) miles/hr"
                         } else {
-                            strongSelf.windSpeedLbl.text = "WindSpeed: \(windSpeed) Km/hr"
+                            strongSelf.windSpeedLbl.text = "Wind Speed: \(windSpeed) Km/hr"
                         }
                         
                     } // jsonObject closing
