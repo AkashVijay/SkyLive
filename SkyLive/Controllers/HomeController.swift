@@ -110,7 +110,7 @@ class HomeController: UIViewController {
                             
                         case "clear-day": strongSelf.PlayerLayer.removeFromSuperlayer()
                         strongSelf.clearDayVideo()
-                            
+                        
                         case "clear-night": strongSelf.PlayerLayer.removeFromSuperlayer()
                         strongSelf.clearNightVideo()
                             
@@ -150,6 +150,7 @@ class HomeController: UIViewController {
                         default: print("Showing default backgorund")
                         strongSelf.PlayerLayer.removeFromSuperlayer()
                         strongSelf.defaultVideo()
+                            
                             
                         } // Switch closing
                         
@@ -250,7 +251,7 @@ class HomeController: UIViewController {
                         SwiftSpinner.show("Unable to connect to our satellite.." , animated: false).addTapHandler({SwiftSpinner.hide()}, subtitle: "Tap anywhere to dismiss this message")
                     }
                 } // completion Handler closing
-            } // Dispatch Queue closing
+            } // Dispatch Queue closing.d
         } // else Closing
     }
     
@@ -396,7 +397,7 @@ extension HomeController {
     
     func rainyDayVideo()
     {
-        let URL = Bundle.main.url(forResource: "Rain_New", withExtension: "mp4")
+        let URL = Bundle.main.url(forResource: "Rainy_Day", withExtension: "mp4")
         
         Player = AVPlayer.init(url: URL!)
         PlayerLayer = AVPlayerLayer(player: Player)
@@ -522,7 +523,7 @@ extension HomeController {
     
     func snowVideo()
     {
-        let URL = Bundle.main.url(forResource: "Snow_New", withExtension: "mp4")
+        let URL = Bundle.main.url(forResource: "Snow", withExtension: "mp4")
         
         Player = AVPlayer.init(url: URL!)
         PlayerLayer = AVPlayerLayer(player: Player)

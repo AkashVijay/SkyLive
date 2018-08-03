@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,25 +22,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fB-8L-PCz">
-                                        <rect key="frame" x="24" y="16" width="327" height="29"/>
+                                        <rect key="frame" x="24" y="28" width="327" height="29"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2p-e1-aXC">
-                                        <rect key="frame" x="24" y="63" width="327" height="27"/>
+                                        <rect key="frame" x="24" y="75" width="327" height="27"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c7-Ue-L6r">
-                                        <rect key="frame" x="24" y="114" width="327" height="21.5"/>
+                                        <rect key="frame" x="24" y="126" width="327" height="21.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adI-C7-xjs">
-                                        <rect key="frame" x="24" y="159.5" width="327" height="167"/>
+                                        <rect key="frame" x="24" y="171.5" width="327" height="167"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Az-hd-dhx">
                                                 <rect key="frame" x="8" y="8" width="311" height="21"/>
@@ -94,7 +94,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2m-M1-PGW">
-                                        <rect key="frame" x="24" y="360.5" width="327" height="134"/>
+                                        <rect key="frame" x="24" y="372.5" width="327" height="134"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEn-1d-Unz">
                                                 <rect key="frame" x="8" y="8" width="311" height="21"/>
@@ -145,7 +145,7 @@
                                     <constraint firstAttribute="trailing" secondItem="adI-C7-xjs" secondAttribute="trailing" constant="24" id="2uc-B7-YyV"/>
                                     <constraint firstItem="f2m-M1-PGW" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="4jC-Un-Ch4"/>
                                     <constraint firstItem="E2p-e1-aXC" firstAttribute="top" secondItem="2fB-8L-PCz" secondAttribute="bottom" constant="18" id="DUJ-Gf-e3E"/>
-                                    <constraint firstItem="2fB-8L-PCz" firstAttribute="top" secondItem="Rhw-BP-6zf" secondAttribute="top" constant="16" id="DsM-zx-Mlf"/>
+                                    <constraint firstItem="2fB-8L-PCz" firstAttribute="top" secondItem="Rhw-BP-6zf" secondAttribute="top" constant="28" id="DsM-zx-Mlf"/>
                                     <constraint firstItem="2fB-8L-PCz" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="Hrj-Ts-qdo"/>
                                     <constraint firstItem="adI-C7-xjs" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="Kr0-uC-krd"/>
                                     <constraint firstAttribute="trailing" secondItem="2fB-8L-PCz" secondAttribute="trailing" constant="24" id="Wtb-Ar-n0A"/>

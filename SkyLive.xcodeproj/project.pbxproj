@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		385FEB4521037A1400202A7F /* Sleet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4421037A1400202A7F /* Sleet.mp4 */; };
 		385FEB4921037A2A00202A7F /* Thunder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4821037A2900202A7F /* Thunder.mp4 */; };
 		385FEB4B210386D100202A7F /* Default.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4A210386D100202A7F /* Default.mp4 */; };
 		385FEB4D210386DC00202A7F /* Hail_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4C210386DB00202A7F /* Hail_New.mp4 */; };
 		385FEB4F21038B1400202A7F /* Tornado_New_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */; };
-		385FEB5121038D7200202A7F /* Rain_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB5021038D7200202A7F /* Rain_New.mp4 */; };
-		385FEB532103FA1800202A7F /* Snow_New.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 385FEB522103FA1800202A7F /* Snow_New.mp4 */; };
 		385FEB552104A32400202A7F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FEB542104A32400202A7F /* Reachability.swift */; };
 		387CB0F420FA4657000E4D01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 387CB0F320FA4656000E4D01 /* GoogleService-Info.plist */; };
 		387CB0F620FA5001000E4D01 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CB0F520FA5001000E4D01 /* HomeController.swift */; };
 		38E745F7210D7BE5003DCC1E /* Cloudy_Night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */; };
+		38E7463D210FDA3F003DCC1E /* Rainy_Day.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38E7463C210FDA3F003DCC1E /* Rainy_Day.mp4 */; };
+		38E746412110C78B003DCC1E /* Snow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38E746402110C78B003DCC1E /* Snow.mp4 */; };
+		38E746432110CE63003DCC1E /* Sleet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38E746422110CE63003DCC1E /* Sleet.mp4 */; };
 		38ECCD6720FA2C2E0098A036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */; };
 		38ECCD6C20FA2C2E0098A036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD6A20FA2C2E0098A036 /* Main.storyboard */; };
 		38ECCD6E20FA2C400098A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ECCD6D20FA2C400098A036 /* Assets.xcassets */; };
@@ -33,17 +33,17 @@
 
 /* Begin PBXFileReference section */
 		125FE96683734EB6E65D736E /* Pods-SkyLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLive/Pods-SkyLive.release.xcconfig"; sourceTree = "<group>"; };
-		385FEB4421037A1400202A7F /* Sleet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sleet.mp4; sourceTree = "<group>"; };
 		385FEB4821037A2900202A7F /* Thunder.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thunder.mp4; sourceTree = "<group>"; };
 		385FEB4A210386D100202A7F /* Default.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Default.mp4; sourceTree = "<group>"; };
 		385FEB4C210386DB00202A7F /* Hail_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hail_New.mp4; sourceTree = "<group>"; };
 		385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tornado_New_2.mp4; sourceTree = "<group>"; };
-		385FEB5021038D7200202A7F /* Rain_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rain_New.mp4; sourceTree = "<group>"; };
-		385FEB522103FA1800202A7F /* Snow_New.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snow_New.mp4; sourceTree = "<group>"; };
 		385FEB542104A32400202A7F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		387CB0F320FA4656000E4D01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		387CB0F520FA5001000E4D01 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloudy_Night.mp4; sourceTree = "<group>"; };
+		38E7463C210FDA3F003DCC1E /* Rainy_Day.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rainy_Day.mp4; sourceTree = "<group>"; };
+		38E746402110C78B003DCC1E /* Snow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snow.mp4; sourceTree = "<group>"; };
+		38E746422110CE63003DCC1E /* Sleet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sleet.mp4; sourceTree = "<group>"; };
 		38ECCD6320FA2C2E0098A036 /* SkyLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ECCD6620FA2C2E0098A036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38ECCD6B20FA2C2E0098A036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,13 +102,13 @@
 				38E745F6210D7BE5003DCC1E /* Cloudy_Night.mp4 */,
 				385FEB4A210386D100202A7F /* Default.mp4 */,
 				385FEB4C210386DB00202A7F /* Hail_New.mp4 */,
-				385FEB5021038D7200202A7F /* Rain_New.mp4 */,
+				38E7463C210FDA3F003DCC1E /* Rainy_Day.mp4 */,
 				38ECCD8520FA31AD0098A036 /* Fog.mp4 */,
 				38ECCD8120FA31930098A036 /* Cloudy.mp4 */,
 				385FEB4E21038B1300202A7F /* Tornado_New_2.mp4 */,
 				385FEB4821037A2900202A7F /* Thunder.mp4 */,
-				385FEB522103FA1800202A7F /* Snow_New.mp4 */,
-				385FEB4421037A1400202A7F /* Sleet.mp4 */,
+				38E746422110CE63003DCC1E /* Sleet.mp4 */,
+				38E746402110C78B003DCC1E /* Snow.mp4 */,
 				38ECCD8920FA31D60098A036 /* Windy.mp4 */,
 				38ECCD7D20FA315C0098A036 /* Clear_Day.mp4 */,
 				38ECCD7C20FA30CF0098A036 /* Videos */,
@@ -236,11 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385FEB532103FA1800202A7F /* Snow_New.mp4 in Resources */,
 				38ECCD7E20FA315C0098A036 /* Clear_Day.mp4 in Resources */,
+				38E7463D210FDA3F003DCC1E /* Rainy_Day.mp4 in Resources */,
 				385FEB4F21038B1400202A7F /* Tornado_New_2.mp4 in Resources */,
 				385FEB4B210386D100202A7F /* Default.mp4 in Resources */,
-				385FEB5121038D7200202A7F /* Rain_New.mp4 in Resources */,
 				38ECCD8620FA31AD0098A036 /* Fog.mp4 in Resources */,
 				385FEB4921037A2A00202A7F /* Thunder.mp4 in Resources */,
 				38ECCD8220FA31930098A036 /* Cloudy.mp4 in Resources */,
@@ -250,8 +249,9 @@
 				387CB0F420FA4657000E4D01 /* GoogleService-Info.plist in Resources */,
 				385FEB4D210386DC00202A7F /* Hail_New.mp4 in Resources */,
 				38E745F7210D7BE5003DCC1E /* Cloudy_Night.mp4 in Resources */,
-				385FEB4521037A1400202A7F /* Sleet.mp4 in Resources */,
+				38E746412110C78B003DCC1E /* Snow.mp4 in Resources */,
 				38ECCD8020FA31690098A036 /* Clear_Night.mp4 in Resources */,
+				38E746432110CE63003DCC1E /* Sleet.mp4 in Resources */,
 				38ECCD6C20FA2C2E0098A036 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
