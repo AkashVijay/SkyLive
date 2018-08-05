@@ -32,10 +32,13 @@ class HomeController: UIViewController {
     @IBOutlet var visibilityLbl: UILabel!
     @IBOutlet var windSpeedLbl: UILabel!
     @IBOutlet var uvIndexLbl: UILabel!
+    @IBOutlet var locationTextField: UITextField!
+    @IBOutlet var searchBtn: UIButton!
     
     var Player : AVPlayer!
     var PlayerLayer : AVPlayerLayer!
     var locationManager: CLLocationManager!
+    var inputLocationName: String = ""
     
     var currentUnits: String = "" // Temp value which holds ˚F or ˚C
     
@@ -50,12 +53,33 @@ class HomeController: UIViewController {
        self.dataView.isHidden = true
        self.secondDataView.isHidden = true
        self.view.backgroundColor = UIColor.black
+        self.locationTextField.isHidden = true
+        self.locationTextField.delegate = self
+        self.searchBtn.isHidden = true
+        self.searchBtn.layer.cornerRadius = 10.0
     }
     //to hide status bar
     override var prefersStatusBarHidden: Bool{
         return true
     }
     
+    //MARK: SearchBtn Action
+    
+    @IBAction func searchBtnTapped() {
+        locationTextField.resignFirstResponder()
+        inputLocationName = locationTextField.text!
+        print("The inputLocation Name is \(inputLocationName)")
+        // Get lat and long from the cityName (Api Request)
+            // We need to create a function and pass cityname to it.
+            // Return value is lat,long
+        if (locationTextField.text?.isEmpty)! {
+            SwiftSpinner.show("Please enter a valid City Name.." , animated: false).addTapHandler({SwiftSpinner.hide()}, subtitle: "Tap anywhere to dismiss this message")
+        } else {
+            cityName2latLong(cityName: inputLocationName)
+        }
+        
+        // Pass that Lat and long to Default function {getApiDetails (lat,long)}
+    }
     
     
     // MARK:- Alamofire
@@ -293,6 +317,8 @@ extension HomeController: CLLocationManagerDelegate {
             self.cityNameLabel.text = cityName
             }
             getApiDetails(lat: lat, long: longitude)
+        self.locationTextField.isHidden = true
+        self.searchBtn.isHidden = true
         case .authorizedWhenInUse: print("App granted permission when in use.")
                                 let lat = self.locationManager.location?.coordinate.latitude ?? 0.0
                                 let longitude = self.locationManager.location?.coordinate.longitude ?? 0.0
@@ -301,9 +327,13 @@ extension HomeController: CLLocationManagerDelegate {
             self.cityNameLabel.text = cityName
             }
             getApiDetails(lat: lat, long: longitude)
+        self.locationTextField.isHidden = true
+        self.searchBtn.isHidden = true
         case .restricted: print("Parental Control")
         case .denied: print("User disabled access.")
-                      showAccessDeniedAlert()
+            self.locationTextField.isHidden = false
+            self.searchBtn.isHidden = false
+                      //showAccessDeniedAlert()
         }
     }
     
@@ -612,6 +642,34 @@ extension HomeController {
     }
 }
 
+
+extension HomeController {
+    func cityName2latLong(cityName: String) {
+        let baseURL = "https://darksky.net/geo?q=\(cityName)"
+        
+        let encodeUrl = baseURL.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
+        
+        Alamofire.request(encodeUrl!).responseJSON { (response) in
+            
+            if let jsonObject = response.result.value {
+                var _json = JSON(jsonObject)
+                let _lat = _json["latitude"].double ?? 0.0
+                let _long = _json["longitude"].double ?? 0.0
+                print("The lat, long values are", _lat, _long)
+                self.getApiDetails(lat: _lat, long: _long)
+            }
+        }
+
+        
+    }
+}
+
+extension HomeController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}
 
 
 

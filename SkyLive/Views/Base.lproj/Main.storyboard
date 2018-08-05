@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -139,17 +139,43 @@
                                             <constraint firstAttribute="trailing" secondItem="mEn-1d-Unz" secondAttribute="trailing" constant="8" id="wHM-wo-GSv"/>
                                         </constraints>
                                     </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter City Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ytw-t8-FTB">
+                                        <rect key="frame" x="24" y="28" width="277" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDE-Oo-dxh">
+                                        <rect key="frame" x="309" y="28" width="54" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="9IF-My-VkS"/>
+                                            <constraint firstAttribute="height" constant="30" id="TZZ-Hm-cm3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <state key="normal" title="Search">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="searchBtnTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="WKu-zq-TXa"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="f2m-M1-PGW" firstAttribute="top" secondItem="adI-C7-xjs" secondAttribute="bottom" constant="34" id="1bg-IZ-MsC"/>
+                                    <constraint firstItem="xDE-Oo-dxh" firstAttribute="top" secondItem="Rhw-BP-6zf" secondAttribute="top" constant="28" id="23l-zG-1ec"/>
                                     <constraint firstAttribute="trailing" secondItem="adI-C7-xjs" secondAttribute="trailing" constant="24" id="2uc-B7-YyV"/>
                                     <constraint firstItem="f2m-M1-PGW" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="4jC-Un-Ch4"/>
+                                    <constraint firstItem="xDE-Oo-dxh" firstAttribute="leading" secondItem="Ytw-t8-FTB" secondAttribute="trailing" constant="8" id="DEI-pd-cg9"/>
                                     <constraint firstItem="E2p-e1-aXC" firstAttribute="top" secondItem="2fB-8L-PCz" secondAttribute="bottom" constant="18" id="DUJ-Gf-e3E"/>
                                     <constraint firstItem="2fB-8L-PCz" firstAttribute="top" secondItem="Rhw-BP-6zf" secondAttribute="top" constant="28" id="DsM-zx-Mlf"/>
                                     <constraint firstItem="2fB-8L-PCz" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="Hrj-Ts-qdo"/>
                                     <constraint firstItem="adI-C7-xjs" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="Kr0-uC-krd"/>
+                                    <constraint firstAttribute="trailing" secondItem="xDE-Oo-dxh" secondAttribute="trailing" constant="12" id="T4Z-Kq-j3W"/>
                                     <constraint firstAttribute="trailing" secondItem="2fB-8L-PCz" secondAttribute="trailing" constant="24" id="Wtb-Ar-n0A"/>
+                                    <constraint firstItem="Ytw-t8-FTB" firstAttribute="top" secondItem="Rhw-BP-6zf" secondAttribute="top" constant="28" id="daC-XB-juD"/>
                                     <constraint firstAttribute="trailing" secondItem="5c7-Ue-L6r" secondAttribute="trailing" constant="24" id="ded-D1-lwy"/>
+                                    <constraint firstItem="Ytw-t8-FTB" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="e1X-TI-uQ6"/>
                                     <constraint firstItem="5c7-Ue-L6r" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="jEo-mm-uMk"/>
                                     <constraint firstItem="E2p-e1-aXC" firstAttribute="leading" secondItem="Rhw-BP-6zf" secondAttribute="leading" constant="24" id="nLr-P4-gM6"/>
                                     <constraint firstAttribute="trailing" secondItem="E2p-e1-aXC" secondAttribute="trailing" constant="24" id="plA-ur-MjN"/>
@@ -173,9 +199,11 @@
                         <outlet property="cityNameLabel" destination="2fB-8L-PCz" id="CvI-pD-VLs"/>
                         <outlet property="currentTempLbl" destination="E2p-e1-aXC" id="RQe-HU-gcc"/>
                         <outlet property="dataView" destination="adI-C7-xjs" id="dpr-Mg-Oie"/>
+                        <outlet property="locationTextField" destination="Ytw-t8-FTB" id="emu-RH-6At"/>
                         <outlet property="maxTempLbl" destination="cyC-sz-gR7" id="jfE-SV-5cf"/>
                         <outlet property="minTempLbl" destination="FWm-x4-xxs" id="Kbj-aN-pVB"/>
                         <outlet property="ozoneLbl" destination="mEn-1d-Unz" id="cJE-fR-mz8"/>
+                        <outlet property="searchBtn" destination="xDE-Oo-dxh" id="gl1-Gb-uIi"/>
                         <outlet property="secondDataView" destination="f2m-M1-PGW" id="nJA-z5-Ih0"/>
                         <outlet property="summaryLbl" destination="5c7-Ue-L6r" id="fFO-kg-G9e"/>
                         <outlet property="sunRiseLbl" destination="0Az-hd-dhx" id="9oq-EB-bjV"/>
@@ -187,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-871" y="-9"/>
+            <point key="canvasLocation" x="-1108" y="-8"/>
         </scene>
     </scenes>
 </document>

@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -26,9 +26,9 @@
 		<true/>
 	</dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>SkyLive needs location permission, so that we can provide you accurate weather information.</string>
+	<string>SkyLive needs location permission, so that we can provide weather info at your current location.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>SkyLive needs location permission, so that we can provide you accurate weather information.</string>
+	<string>SkyLive needs location permission, so that we can provide weather info at your current location.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
